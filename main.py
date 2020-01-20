@@ -59,19 +59,19 @@ def Amazon_URL_check():
         if validURL:
             MinimizedURL = minimize_url(ProductURL)
             ProductASIN = parse_asin(MinimizedURL)
-            region = parse_region(MinimizedURL)
+            Region = parse_region(MinimizedURL)
             
             url_result = {
-                'ValidAmazonURL': validURL,
+                'ValidAmazonURL': ValidURL,
                 'URL': ProductURL,
                 'MinimalURL': MinimizedURL,
                 'ASIN': ProductASIN,
-                'Region': region
+                'Region': Region
                 }
         
         else :
             url_result = {
-                'ValidAmazonURL': validURL,
+                'ValidAmazonURL': ValidURL,
                 'URL': ProductURL
                 }
 
