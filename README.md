@@ -1,3 +1,1 @@
-﻿# URL API
-
-https://url.aws.palmhost.se/api/v1/urls/amazon
+#Python Flask REST API for validating and extracting ASIN from amazon url
