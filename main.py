@@ -16,6 +16,7 @@ extensions = ({
     'nl': 'Netherlands',
     'es': 'Spain',
     'com': 'United States'
+    'se': 'Sweden'
     })
 
 def amazon_url_match(ProductURL):
