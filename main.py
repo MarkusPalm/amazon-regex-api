@@ -15,7 +15,7 @@ extensions = ({
     'com.mx': 'Mexico',
     'nl': 'Netherlands',
     'es': 'Spain',
-    'com': 'United States'
+    'com': 'United States',
     'se': 'Sweden'
     })
 
